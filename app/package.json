@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server "
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.8.0",
+    "@truffle/hdwallet-provider": "^2.1.4",
+    "dotenv": "^16.0.3",
+    "web3": "^1.8.0"
+  }
+}

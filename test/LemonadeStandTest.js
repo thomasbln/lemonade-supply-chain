@@ -1,6 +1,6 @@
 const LemonadeStand = artifacts.require('LemonadeStand');
 var accounts;
-
+ 
 contract('LemonadeStand', (accounts) => {
   owner = accounts[0];
   const sellingPrice = 300;
