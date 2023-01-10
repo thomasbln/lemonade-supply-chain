@@ -1,3 +1,0 @@
-# lemonade-supply-chain
-
-#init 
