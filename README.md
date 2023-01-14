@@ -80,34 +80,34 @@ Your terminal should look something like this:
 In a separate terminal window, Compile smart contracts:
 
 ```
-truffle compile
+compile
 ```
 
 Your terminal should look something like this:
 
-![truffle test](images/truffle_compile.png)
+![truffle test](images/truffle-compile.png)
 
 Test smart contracts
 
 ```
-truffle test
+test
 ```
 
 Your terminal should look something like this:
 
-![truffle test](images/truffle_test.png)
+![truffle test](images/truffle-test.png)
 
 
 
 Migrate smart contracts to the locally running blockchain, ganache-cli:
 
 ```
-truffle migrate --reset
+migrate --reset
 ```
 This will create the smart contract artifacts in folder ```build\contracts```.
 Your terminal should look something like this:
 
-![truffle test](images/truffle_migrate.png)
+![truffle test](images/truffle-migrate.png)
 
 
 
@@ -126,6 +126,8 @@ Open your browser:  http://localhost:8080
 #### ERR_OSSL_EVP_UNSUPPORTED
 
 When you run npm run dev you may get the following error:
+
+ <img src="./images/openssl-error.png" alt="MetaMask add new network" width="400" >
 
 
 In a terminal window:
