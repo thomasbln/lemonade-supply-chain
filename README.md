@@ -12,7 +12,11 @@
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system.
 
-![Supply chain flow](images/simplesupplychain.png)
+
+ <img src="./images/simplesupplychain.png" alt="simple supply chain process" width="500" >
+
+
+ <img src="./images/LemonadeWeb.png" alt="LemonadeWeb" width="500" >
 
 
 The starter code is written for **Solidity v0.8.1**
