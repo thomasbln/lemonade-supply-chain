@@ -157,7 +157,7 @@ If you prefer to work with Ganache GUI, you must first change the port to 7545 i
 ```
    development: {
       host: "127.0.0.1",     // Localhost (default: none)
-      port: 9545,            // Standard Ethereum port Ganache Console
+      port: 9545,            // Standard Ethereum port ganache-cli
       network_id: "*", 
       gas: 2100000,
      },
@@ -190,6 +190,6 @@ If you prefer to work with Ganache GUI, you must first change the port to 7545 i
  <img src="./images/MetaMask-add-network-7545.png" alt="MetaMask add new network" width="250" >
 
 
-#### MetaMask add localhost:9545 Ganache console
+#### MetaMask add localhost:9545 ganache-cli
  <img src="./images/MetaMask-add-network-9545.png" alt="MetaMask add new network" width="250" >
 
