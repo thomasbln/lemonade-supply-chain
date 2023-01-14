@@ -169,14 +169,15 @@ If you prefer to work with Ganache GUI, you must first change the port to 7545 i
 
 ![Ganache New Workspace](images/Ganache-new-workspace.png)
 
+#### Ganache project settings
+
+![Ganache procect settings](images/Ganache-project-settings.png)
+
+
 #### Export private key
 
 ![Ganache private key](images/Ganache-private-key.png)
 
-
-#### Ganache project settings
-
-![Ganache procect settings](images/Ganache-project-settings.png)
 
 
 ## MetaMask
