@@ -19,7 +19,7 @@ The starter code is written for **Solidity v0.8.1**
 
 (please refer to Solidity [documentation](https://docs.soliditylang.org/en/v0.8.1/index.html) for more details). 
 
-To use this starter code, please run `npm i -g truffle@5.7.0` to install Truffle v4 with Solidity v0.8.1. 
+To use this starter code, please run `npm i -g truffle@5.7.0` to install Truffle v5 with Solidity v0.8.1. 
 
 ## Prerequisites
 
@@ -125,6 +125,9 @@ Open your browser:  http://localhost:8080
 
 #### ERR_OSSL_EVP_UNSUPPORTED
 
+When you run npm run dev you may get the following error:
+
+
 In a terminal window:
 
 ```
@@ -140,7 +143,26 @@ npm run dev
 
 ## Ganache Gui
 
-If you prefer to work with Gnache GUI.
+If you prefer to work with Ganache GUI, you must first change the port to 7545 in truffle-config.js.
+
+```
+   development: {
+      host: "127.0.0.1",     // Localhost (default: none)
+      port: 7545,            // Standard Ethereum port Ganache GUI
+      network_id: "*", 
+      gas: 2100000,
+     },
+```
+
+```
+   development: {
+      host: "127.0.0.1",     // Localhost (default: none)
+      port: 9545,            // Standard Ethereum port Ganache Console
+      network_id: "*", 
+      gas: 2100000,
+     },
+```
+
 <br>
 
 #### Create New Workspace
