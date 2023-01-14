@@ -31,6 +31,11 @@ For this project, you will need to have:
 * Ganache
 
 Node and NPM installed - NPM is distributed with Node.js
+
+Download and install Node.js v18.12.1
+
+https://nodejs.org/download/release/v18.12.1/
+
 #### Check Node version
 ```
 node -v
