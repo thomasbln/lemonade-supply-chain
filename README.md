@@ -136,7 +136,7 @@ When you run npm run dev you may get the following error:
  <img src="./images/openssl-error.png" alt="MetaMask add new network" width="500" >
 
 
-In a terminal window:
+In a terminal window (Mac):
 
 ```
 export NODE_OPTIONS=--openssl-legacy-provider
