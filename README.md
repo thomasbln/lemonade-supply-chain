@@ -151,7 +151,7 @@ npm run dev
 
 ## Ganache Gui
 
-If you prefer to work with Ganache GUI, you must first change the port to 7545 in truffle-config.js.
+If you prefer to work with Ganache GUI, you must first change the port to "7545" in truffle-config.js.
 
 ```
    development: {
