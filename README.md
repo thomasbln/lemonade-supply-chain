@@ -160,9 +160,9 @@ If you prefer to work with Gnache GUI.
 
 #### MetaMask add localhost:7545 Ganache GUI
 
+ <img src="./images/MetaMask-add-network-7545.png" alt="MetaMask add new network" width="250" >
 
-![MetaMask add new network](images/MetaMask-add-network-7545.png)
 
 #### MetaMask add localhost:9545 Ganache console
+ <img src="./images/MetaMask-add-network-9545.png" alt="MetaMask add new network" width="250" >
 
-![MetaMask add new network](images/MetaMask-add-network-9545.png)
