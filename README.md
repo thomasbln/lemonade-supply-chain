@@ -4,7 +4,8 @@
 3. [Installation Dapp](#installation-dapp)
 4. [Launch Dapp](#launch-dapp)
 5. [Known bugs](#known-bugs)
-6. [Ganache and MetaMask settings](#ganache-an-metamask-settings)
+6. [Ganache GUI](#ganache-gui)
+7. [MetaMask](#metamask)
 
 
 ## General Info
@@ -132,9 +133,12 @@ npm run dev
 ```
 
 
-## Ganache and MetaMask settings
+## Ganache Gui
 
-#### New Workspace
+If you prefer to work with Gnache GUI.
+<br>
+
+#### Create New Workspace
 
 ![Ganache New Workspace](images/Ganache-new-workspace.png)
 
@@ -147,13 +151,18 @@ npm run dev
 
 ![Ganache procect settings](images/Ganache-project-settings.png)
 
+
+## MetaMask
+
 #### MetaMask import Account
 
 ![MetaMask add new network](images/MetaMask-import-key.png)
 
-#### MetaMask add localhost:7545 network 
+#### MetaMask add localhost:7545 Ganache GUI
 
-(truffle-config.js)
 
-![MetaMask add new network](images/MetaMask-add-network.png)
+![MetaMask add new network](images/MetaMask-add-network-7545.png)
 
+#### MetaMask add localhost:9545 Ganache console
+
+![MetaMask add new network](images/MetaMask-add-network-9545.png)
