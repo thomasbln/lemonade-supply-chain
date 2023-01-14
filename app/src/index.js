@@ -1,5 +1,5 @@
 import Web3 from "web3";
-import starNotaryArtifact from "../../build/contracts/LemonadeStand.json";
+import LemonadeStand from "../../build/contracts/LemonadeStand.json";
 
 const App = {
   web3: null,
@@ -12,9 +12,9 @@ const App = {
     try {
       // get contract instance
       const networkId = await web3.eth.net.getId();
-      const deployedNetwork = starNotaryArtifact.networks[networkId];
+      const deployedNetwork = LemonadeStand.networks[networkId];
       this.meta = new web3.eth.Contract(
-        starNotaryArtifact.abi,
+        LemonadeStand.abi,
         deployedNetwork.address,
       );
 
