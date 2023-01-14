@@ -30,7 +30,7 @@ contract LemonadeStand{
 
     event Sold(uint sku);
 
-    event Shipped(uint256 sku);
+    event Shipped(uint sku);
 
     //Modifier: Only Owner to msee if msg.sender == owner of the contract
     modifier onlyOwner
@@ -151,3 +151,4 @@ contract LemonadeStand{
     }
 
 }
+

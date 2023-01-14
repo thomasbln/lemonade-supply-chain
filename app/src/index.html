@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StarNotary DAPP</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>Lemonade Supply Chain</h1>
+
+    <hr>
+
+    <br>
+      <h1>Create a item for sell</h1>
+      <br><label for="itemName">Item  Name:</label><input type="text" id="itemName"></input>
+      <br><label for="sellingPrice">Price:</label><input type="text" id="sellingPrice"></input>
+      <br><br><button id="addItem" onclick="App.addItem()">addItem</button>
+      <br>
+      <hr>
+      <h1>Mark a item as shipped</h1>
+      <br><label for="itemShipped">Item SKU:</label><input type="text" id="ItemSKUShipped"></input>
+      <br><br><button id="shipItem" onclick="App.shipItem()">shipItem</button>
+      <br>
+      <hr>
+      <h1>Buy a item </h1>
+      <br><label for="itemBuy">Item SKU:</label><input type="text" id="itemBuy"></input>
+      <br><label for="buyPrice">Price:</label><input type="text" id="buyPrice"></input>
+      <br><br><button id="buyItem" onclick="App.buyItem()">buyItem</button>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <h1>Look up a Item</h1>
+      <br><label for="sku">Item SKU:</label><input type="text" id="sku"></input>
+      <br><br><button onclick="App.fetchItem()">Look Up a Item</button>
+      <hr>
+      <br>
+      <span id="status"></span>
+      <br>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
+<!--
+We were not able to estimate gas. There might be an error in the contract and this transaction may fail.
+
+Network is busy. Gas prices are high and estimates are less accurate.
+-->
