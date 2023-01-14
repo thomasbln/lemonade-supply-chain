@@ -127,7 +127,7 @@ Open your browser:  http://localhost:8080
 
 When you run npm run dev you may get the following error:
 
- <img src="./images/openssl-error.png" alt="MetaMask add new network" width="400" >
+ <img src="./images/openssl-error.png" alt="MetaMask add new network" width="500" >
 
 
 In a terminal window:
