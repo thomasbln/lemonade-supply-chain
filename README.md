@@ -155,8 +155,8 @@ If you prefer to work with Gnache GUI.
 ## MetaMask
 
 #### MetaMask import Account
+ <img src="./images/MetaMask-import-key.png" alt="MetaMaskimport private key" width="250" >
 
-![MetaMask add new network](images/MetaMask-import-key.png)
 
 #### MetaMask add localhost:7545 Ganache GUI
 
