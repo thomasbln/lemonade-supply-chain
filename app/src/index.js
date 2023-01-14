@@ -25,12 +25,13 @@ const App = {
       console.error("Could not connect to contract or chain.");
     }
   },
-
+  //setStatus output to id -> status
   setStatus: function(message) {
     const status = document.getElementById("status");
     status.innerHTML = message;
   },
-
+  
+  // addItem: name and price  from input values
   addItem: async function() {
     const { addItem } = this.meta.methods;
     const name = document.getElementById("itemName").value;
@@ -38,7 +39,8 @@ const App = {
     await addItem(name, price).send({from: this.account});
     App.setStatus("New Item Owner is " + this.account + ".");
   },
-
+  
+  //buyItem sku and price from input values
   buyItem: async function() {
     const { buyItem } = this.meta.methods;
     const sku = document.getElementById("itemBuy").value;
@@ -47,7 +49,7 @@ const App = {
     App.setStatus("New Item Owner is " + this.account + " - sku " + sku + " - price " + price);
   },
 
-  // Implement Task 4 Modify the front end of the DAPP
+  //fetchItem infos from given id : sku
   fetchItem: async function (){
     const {fetchItem} = this.meta.methods;
 
@@ -64,7 +66,7 @@ const App = {
     App.setStatus(output);
   },
 
-  // Implement Task 4 Modify the front end of the DAPP
+  //shipItem set status from item (sku) to Shipped
   shipItem: async function (){
     const {shipItem} = this.meta.methods;
 
@@ -76,7 +78,7 @@ const App = {
 };
 
 window.App = App;
-
+//connect with MetaMask
 window.addEventListener("load", async function() {
   if (window.ethereum) {
     // use MetaMask's provider
