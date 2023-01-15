@@ -37,9 +37,16 @@ For this project, you will need to have:
 
 Node and NPM installed - NPM is distributed with Node.js
 
-Download and install Node.js v18.12.1
+Download and install Node.js v18.12.1 
 
 https://nodejs.org/download/release/v18.12.1/
+
+or on Mac install Node.js with brew
+
+```
+brew install node@18.12.1
+```
+
 
 #### Check Node version
 ```
